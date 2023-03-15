@@ -97,6 +97,7 @@ public class FirstProject {
         Thread.sleep(1000);
         Assert.assertEquals(driver.getCurrentUrl(),"http://duotify.us-east-2.elasticbeanstalk.com/register.php","Wrong link");
 
+        driver.quit();
     }
 
 }
